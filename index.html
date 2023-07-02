@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/d93aeba77c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div id="header">
+                <div class="container">
+                    <nav>
+                        <img src="images/logo1.png" alt="loho" class="logo" srcset="">
+                        <ul>
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Skills</a></li>
+                            <li><a href="#portfolio">My Work</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header-text">
+                        <p>Software Engineering Student</p>
+                        <h1>Hi, I'm <span>Shivam Pandey</span><br>from RKGIT</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+
+        <!-- --------------- about section  ---------------- -->
+
+        <header>
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="images/user.jpg" alt="">
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="sub-title">Objective</h1><br>
+                            <p class="sub-para">Looking for an Entry-Level Position in a Software Company to utilize my skills in coding, problem-solving, and team collaboration to contribute to the growth and success of the organization</p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Internship</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                    <li><span>Web Development</span><br>Building Full Stack Web Apps and Dynamic websites</li>
+                                    <li><span>DSA</span><br>Problem Solving Skills</li>
+                                    <li><span>Java</span><br>Knowledge of Java Programming Knowledge</li>
+                                    <li><span>Python</span><br>Knowledge of Python Programming Knowledge</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Spark Foundation</Html></span><br><br>Worked on a Banking System Project and submitted it within deadline <br>21 Dec 2022 - 21 Jan 2023</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>Bachelor of technology in Computer Science and Engineering</span><br>- Raj Kumar Goel Institute of Technology <br> 2020 - Present</li>
+                                    <li><span>Intermediate</span><br>- Holy Child Public School <br> 2019-2020</li>
+                                    <li><span>High School</span><br>- Jawahar Navodaya Vidyalaya <br> 2017-2018 </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--- ------------------- Certifications --------------------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">Skills</h1>
+                <div class="services-list">
+                    <div>
+                        <img src="images/1.png" alt="">
+                        <h2>Web Development</h2>
+                        <p>Have Knowledge of latest technology in Web Development <br> <br><ul><li>HTML, CSS, JavaScript, DOM</li><li>Bootstrap, Jquery, React, Github</li><li>Node.js, MongoDB, SQL ,Mongoose</li></ul></p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <img src="images/ux.png" alt="">
+                        <h2>UI/UX Design</h2>
+                        <p>Good skills Of HTML, CSS, Bootstrap and React to develop a UI interface of a Website. Can design a User Interactive Web apps can create better user experiences.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Data Structure and Algorithm</h2>
+                        <p>Good Problem Solving Skils having Knowledge of Java and Python. Data Structures are used in problem Solving and utilization of memory and Time. Can use DSA effectively to develop a efficient software.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------- My Work --------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-11.png">
+                        <div class="layer">
+                            <h3>Basic Banking System</h3>
+                            <p>Defines a core banking system as a back-end system that processes daily banking transaction and posts updates to accounts and other financial records .</p>
+                            <a href="https://shivam1723.github.io/Basic_Banking.github.io/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.jpg">
+                        <div class="layer">
+                            <h3>Newsletter Signup</h3>
+                            <p>This project is a template for a newletter signup page that adds users to my newsletter using MailChimp API.It has a simple frontend but it has an efficient backend using node.js and express.</p>
+                            <a href="https://wild-gray-parrot-kilt.cyclic.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-33.png">
+                        <div class="layer">
+                            <h3>Keeper App</h3>
+                            <p>The web app is just like google notes made by using React.js .</p>
+                            <a href="https://0xuew6.csb.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        <!----------------------- Contact ----------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> shivampandey17042002@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> 0123456789</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/shivam-pandey-480962225/"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                            <!-- <a href="#"><i class="fa-brands fa-facebook"></i></a> -->
+                            <!-- <a href="#"><i class="fa-brands fa-linkedin-in"></i></a> -->
+                            <a href="https://github.com/shivam1723"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form action="" name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Shivam. Made with Suryansh Singh</p>
+            </div>
+        </div>
+    </div>
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabName){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        //add class active link to tab links section
+        event.currentTarget.classList.add("active-link");
+        //add class active-tab to id where tabName == id in tab content
+        document.getElementById(tabName).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzExV8IaVlT3G0UuG8L-Zq7tkYSwhQy_Ry87ZL9dXohcxgBIgkJk5WCc3etJ7WKXLBi7Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent sucessfully"
+            setTimeout(()=>msg.innerHTML="",5000);
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
